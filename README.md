@@ -21,7 +21,7 @@
 | `extract/web_app.py` | 本地文件检查、编辑、脚本执行和日志流 | FastAPI、WebSocket |
 | `medrule-assistant/` | 人工复核页面 | Vue 3、TypeScript、Element Plus |
 
-本版本直接调用 OpenAI SDK 的 Chat Completions 兼容接口，未使用 LangChain、LangGraph、MCP、A2A 或多智能体框架。`pipelines/` 保留重构过程中的模块；API 与文件流程各自存在处理逻辑，行为不完全相同。
+`pipelines/` 保留重构过程中的模块；API 与文件流程各自存在处理逻辑，行为不完全相同。
 
 ```mermaid
 flowchart LR
