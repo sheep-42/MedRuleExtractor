@@ -1,0 +1,59 @@
+# Python 编译缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+venv/
+.env/
+.venv/
+
+# Jupyter Notebook 检查点
+.ipynb_checkpoints/
+
+# VSCode 编辑器配置
+.vscode/
+
+# PyCharm 编辑器配置
+.idea/
+
+# 本地配置文件
+*.env
+config_local.yaml
+
+# 日志 & 输出
+*.log
+*.out
+*.bak
+*.tmp
+logs/
+output/
+results/
+instructions_PDF/
+*.sqlite3
+
+# 数据文件
+*.csv
+*.tsv
+*.xlsx
+
+# 模型文件和缓存
+*.pt
+*.ckpt
+*.pth
+*.onnx
+__models__/
+cache/
+
+1.json
+# Public release: private configuration and local input
+config/config.yaml
+.env
+.env.*
+!.env.example
+instructions_MD/*
+!instructions_MD/.gitkeep
+images/
+*.pem
+*.key
+.DS_Store

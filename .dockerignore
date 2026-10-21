@@ -1,0 +1,26 @@
+# .dockerignore
+
+# 忽略 Git 相关文件
+.git
+.gitignore
+
+# 忽略 VSCode 配置文件
+.vscode/
+
+# 忽略前端项目目录
+medrule-assistant/
+
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
+
+# 忽略一些无关的目录
+images/
+instrutions_PDF/
+results/
+config/config.yaml
+.env
+.env.*
+logs/
+*.xlsx
+instructions_MD/

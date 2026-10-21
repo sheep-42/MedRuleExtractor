@@ -1,0 +1,24 @@
+# Copy to config/config.yaml; keep real credentials out of Git.
+database:
+  dialect: postgresql
+  driver: psycopg2
+  username: medrule
+  password: change-me
+  host: localhost
+  port: 5432
+  database: medrule
+openai:
+  base_url: https://api.openai.com/v1
+  api_key: YOUR_API_KEY
+  model_phase1: YOUR_MODEL_NAME
+  model_phase1_1: YOUR_MODEL_NAME
+  model_phase1_2: YOUR_MODEL_NAME
+  model_phase2: YOUR_MODEL_NAME
+  model_phase3: YOUR_MODEL_NAME
+  model_phase4: YOUR_MODEL_NAME
+es:
+  host: localhost
+  port: 9200
+  scheme: http
+  username: elastic
+  password: change-me
